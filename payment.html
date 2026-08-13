@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Complete Your Purchase — Indian Protein Guide</title>
+<meta name="description" content="Pay ₹100 via UPI or FamApp to get instant access to the Indian Protein Guide PDF." />
+<meta name="robots" content="noindex" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-mark"><span class="dot"></span> Indian Protein Guide</a>
+    <span class="nav-step">Step <strong>2</strong> of 3 — Pay</span>
+  </div>
+</nav>
+
+<main class="pay-shell">
+  <div class="wrap">
+    <div class="pay-card reveal is-visible">
+      <div class="pay-head">
+        <span class="section-kicker">Complete Your Purchase</span>
+        <h1>Pay with UPI</h1>
+        <div class="price-tag">
+          <span class="cur">₹</span><span class="amt">100</span><span class="per">one-time</span>
+        </div>
+      </div>
+
+      <div class="pay-divider">Scan to pay</div>
+
+      <div class="qr-frame">
+        <span class="corner tl" aria-hidden="true"></span>
+        <span class="corner br" aria-hidden="true"></span>
+        <img src="assets/famapp-qr.png" alt="UPI / FamApp QR code for paying ₹100 to kumar-fx01@fam" />
+      </div>
+
+      <div class="upi-id-row">
+        <div>
+          <div class="lbl">UPI ID</div>
+          <div class="val">kumar-fx01@fam</div>
+        </div>
+        <button type="button" class="copy-btn" id="copyUpiBtn" data-upi="kumar-fx01@fam">Copy</button>
+      </div>
+
+      <ol class="pay-steps">
+        <li><span class="step-n">1</span> Scan the QR code above using FamApp or any UPI app (Google Pay, PhonePe, Paytm, etc.).</li>
+        <li><span class="step-n">2</span> Confirm the amount shown is ₹100 and complete the payment.</li>
+        <li><span class="step-n">3</span> Once you've paid, tap the button below to get your download.</li>
+      </ol>
+
+      <div class="pay-cta">
+        <button type="button" id="paidContinueBtn" class="btn btn-primary btn-lg btn-full">I've Paid — Continue →</button>
+      </div>
+
+      <div class="honesty-note">
+        <span>ℹ️</span>
+        <span><strong>Please note:</strong> this button doesn't automatically verify your payment — UPI transfers to this account can't be checked in real time from this website. Please make sure you've actually completed the payment before continuing. Thank you for paying honestly.</span>
+      </div>
+
+      <a href="index.html" class="back-link">← Back to product page</a>
+    </div>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
